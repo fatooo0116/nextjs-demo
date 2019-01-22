@@ -7,6 +7,7 @@ import fetch from 'isomorphic-unfetch'
 
 
 
+
 const PostLink = (props) =>(
   <li>
     <Link as={`/p/${props.id}`} href={`/post?title=${props.title}`} >
